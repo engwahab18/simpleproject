@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+     
+        .header{
+            width: 100%;
+            height: 70px;
+            background: black;
+        }
+        .container{
+            width: 1330px;
+            height: 10px;
+            margin: auto;
+
+        }
+       
+        
+        .Arif{
+            color: white;
+            padding-top: 11px;
+            font-size: 22px;
+            margin-left: 42px;
+        }
+        
+        .navi{
+            float: right;
+            /* background-color: grey; */
+            position: relative;
+            top: -40px;
+            border-radius: 25px;
+
+        }
+        
+        .navi ul li {
+            display: inline;
+            padding: 40px;
+           
+        }
+        .navi ul li a{
+            color: white;
+            text-decoration: none;
+            font-size: 35px;
+        
+        }
+
+        .navi ul li a:hover{
+            transition: 2s;
+            color: chocolate;
+        }
+
+        .content{
+            width: 100%;
+            height: 400px;
+            background: grey;
+        }
+        .content{
+            background-image: url(pexels.jpg);
+            background-size: 100% 400px;
+            background-repeat: no-repeat;
+        }
+        .content {
+    width: 100%;
+    height: 400px;
+    background: grey;
+    background-image: url(pexels.jpg);
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease; 
+}
+
+.content:hover {
+    transform: scale(1.2); 
+}
+
+
+        .content h1:hover{
+            transition: 2s;
+            padding-left: 433px;
+            opacity: 1;
+            text-transform: uppercase;
+
+        }
+        .text h1{
+           color: white;
+           padding-left: 1032px;
+          font-size: 30px;
+          position: relative;
+          top: 242px;
+}
+
+.content1{
+    width: 100%;
+    height: 400px;
+    background: black;
+    background-image: url(pd.jpg);
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+}
+
+.content1 h1{
+    color: crimson;
+    padding-left: 604px;
+    font-size: 57px;
+}
+
+.content2{
+    width: 100%;
+    height: 400px;
+    background: grey;
+}
+.content2 h1{
+    color: white;
+    padding-left: 574px;
+    padding-top: 27px;
+    font-size: 56px
+}
+.d1{
+    width: 229px;
+    height: 200px;
+    background-color: black;
+    border-radius: 202px;
+    position: relative;
+    top: 48px;
+}
+.d2{
+    width: 229px;
+    height: 200px;
+    background-color: black;
+    border-radius: 202px;
+    position: relative;
+    left: 550px;
+    position: relative;
+    top: -158px;
+}
+ 
+.d3{
+    width: 234px;
+    height: 211px;
+    background-color: black;
+    margin-top: -359px;
+    margin-left: 1080px;
+    border-radius: 259px;
+}
+.d1 i{
+    color: white;
+    padding-left: 26px;
+    padding-top: 18px;
+    font-size: 160px;
+}
+.d2 i{
+    color: white;
+    padding-left: 26px;
+    padding-top: 18px;
+    font-size: 160px;
+}
+.d3 i{
+    color: white;
+    padding-left: 26px;
+    padding-top: 18px;
+    font-size: 160px;
+}
+   
+.content3{
+    width: 100%; height: 400px;  background-color: black; 
+    padding-top: 35px;
+}
+.btn1 input{
+    height: 35px;
+    width: 305px;
+    position:relative;
+    left: 500px;
+    border-radius: 22px;
+}
+.btn2 input{
+    height: 35px;
+    width: 305px;
+    position:relative;
+    left: 500px;
+    border-radius: 22px;
+}
+.btn3 input{
+    height: 35px;
+    width: 305px;
+    position:relative;
+    left: 500px;
+    border-radius: 22px;
+}
+.btn4 input{
+    height: 35px;
+    width: 305px;
+    position:relative;
+    left: 500px;
+    border-radius: 22px;
+}
+.content3 {
+      width: 100%;
+      height: 400px;
+      position: relative;
+      background: linear-gradient(to bottom, #001033, #000814); 
+      overflow: hidden;
+      animation: skyTransition 10s infinite alternate; 
+    }
+
+    @keyframes skyTransition {
+      0% {
+        background: linear-gradient(to bottom, #001033, #000814); 
+      }
+      50% {
+        background: linear-gradient(to bottom, #00264d, #001033); 
+      }
+      100% {
+        background: linear-gradient(to bottom, #001033, #000814); 
+      }
+    }
+
+    .star {
+      position: absolute;
+      width: 3px;
+      height: 3px;
+      background: white;
+      border-radius: 50%;
+      animation: twinkle 2s infinite ease-in-out alternate;
+      opacity: 0.8;
+    }
+
+    
+    .moving-star {
+      position: absolute;
+      width: 2px;
+      height: 2px;
+      background: white;
+      border-radius: 50%;
+      opacity: 0.8;
+      animation: moveStar 5s infinite ease-in-out;
+    }
+
+    @keyframes twinkle {
+      0% {
+        opacity: 0.2;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes moveStar {
+      0% {
+        transform: translateX(-50px);
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        transform: translateX(800px);
+        opacity: 0;
+      }
+    }
+
+
+    .shooting-star {
+      position: absolute;
+      width: 3px;
+      height: 3px;
+      background: white;
+      border-radius: 50%;
+      box-shadow: 0 0 10px white;
+      animation: shoot 2s infinite ease-in-out;
+    }
+
+    @keyframes shoot {
+      0% {
+        transform: translate(0, 0) scale(1);
+        opacity: 1;
+      }
+      50% {
+        transform: translate(300px, 100px) scale(1.5);
+        opacity: 0.8;
+      }
+      100% {
+        transform: translate(600px, 200px) scale(0);
+        opacity: 0;
+      }
+    }
+
+   
+    .btn1 input, .btn2 input, .btn3 input, .btn4 input {
+      height: 35px;
+      width: 305px;
+      position: relative;
+      left: 500px;
+      border-radius: 22px;
+      opacity: 0;
+      animation: fadeSlide 1s ease forwards;
+    }
+
+    @keyframes fadeSlide {
+      0% {
+        opacity: 0;
+        transform: translateX(-50px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .btn1 input {
+      animation-delay: 1s;
+    }
+    .btn2 input {
+      animation-delay: 2s;
+    }
+    .btn3 input {
+      animation-delay: 3s;
+    }
+    .btn4 input {
+      animation-delay: 4s;
+    }
+
+    .content4{
+      width: 100%;
+      height: 30px;
+      background: black;
+    }
+     .h1{ 
+      color: white;
+    padding-left: 524px;
+    font-family: Freestyle Script;
+    }
+  </style>
+
+    <div class="header">
+    <div class="container">
+     <div class="Arif"><h1>University</h1></div>   
+
+     <div class="navi">
+        <ul>
+            <li> <a href="">Home</a></li>
+            <li> <a href="">About Us</a></li>
+            <li> <a href="">Contact Us</a></li>
+            <li> <a href="">Help</a></li>
+        </ul>
+     </div>
+
+     
+    </div>
+    </div>
+
+    <div class="content">
+        <div class="container">
+        <div class="text"><h1>Webdeveloper</h1></div>
+        </div>
+    </div>
+
+    <div class="content1">
+        <div class="container">
+            <div class="text2"><h1>Debugger</h1></div>
+        </div>
+    </div>
+
+    <div class="content2">
+        <div class="container">
+            <div class="radius"><h1>Visionary</h1></div>
+            <div class="d1"><i class="fa-solid fa-house"></i></div>
+            <div class="d2"><i class="fa-solid fa-phone"></i></div>
+            <div class="d3"><i class="fa-solid fa-heart"></i></div>
+        </div>
+    </div>
+    
+    <div class="content3">
+        <div class="container">
+       <div class="btn1"> <input type="text" placeholder="Please Enter your name"></div>
+        <br> <br> <br> 
+        <div class="btn2"><input type="text" placeholder="Please Enter your Registration number"></div>
+        <br> <br>  <br>
+        <div class="btn3"><input type="text" placeholder="Please Enter your Faculty Name"></div>
+        <br>  <br> <br>
+        <div class="btn4"><input type="text" placeholder="Please Enter your Department Name"></div>
+    </div>
+
+    </div>
+
+    <div class="content4">
+      <div class="container">
+        <div class="h1">Created By Abdul Wahab Shar</div>
+      </div>
+    </div>
+
+</head>
+<body>
+    
+</body>
+</html>
